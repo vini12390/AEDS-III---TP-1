@@ -1,7 +1,7 @@
-Descrição Geral
+Descrição Geral:
 Esta aplicação tem como objetivo registrar dados em um arquivo externo, armazenando informações como nome, data de criação, data de conclusão, status e prioridade de cada registro. Os dados são persistidos em um formato estruturado para facilitar a leitura e análise posterior.
 
-Funcionalidades
+Funcionalidades:
 Criação de registros: Permite adicionar novos registros ao sistema, definindo os atributos nome, data de criação, status e prioridade. A data de conclusão é inicializada como nula e pode ser atualizada posteriormente.
 Leitura de registros: Carrega os registros existentes do arquivo para a memória, permitindo a visualização e manipulação dos dados.
 Atualização de registros: Permite modificar os atributos de um registro existente, como status ou data de conclusão.
@@ -10,12 +10,9 @@ Persistência de dados: Salva as alterações realizadas nos registros no arquiv
 Tecnologias Utilizadas
 Linguagem de programação: Java
 
-Estrutura do Arquivo
+Estrutura do Arquivo:
 O arquivo externo que armazena os dados possui a seguinte estrutura:
 
-nome;dataDeCriacao;dataDeConclusao;status;prioridade
-registro1;2023-11-22;2023-11-25;Concluído;Alta
-registro2;2023-11-23;null;Em Andamento;Média
 Separador: O ponto e vírgula (;) é utilizado como separador entre os campos.
 Formato de data: A data é armazenada no formato YYYY-MM-DD.
 
