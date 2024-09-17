@@ -10,9 +10,6 @@ Persistência de dados: Salva as alterações realizadas nos registros no arquiv
 Tecnologias Utilizadas
 Linguagem de programação: Java
 
-Estrutura do Arquivo:
-O arquivo externo que armazena os dados possui a seguinte estrutura:
-
 Separador: O ponto e vírgula (;) é utilizado como separador entre os campos.
 Formato de data: A data é armazenada no formato YYYY-MM-DD.
 
